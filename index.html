@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!--a linha acima indica vários formatos pra vários dispositivos-->
+    <title>Confeitaria</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!--div.hamburguer>div.line*3 pra criar 3 divs com  class hamburguer e line  "atalhos do imment "div.hamburguer>div.line#line*3" coloca id em todas div "ctrl+espaço abre opção" criação menu estilo hamburguer-->
+
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+        <!-- elemento que quando o menu abre ele aparece, e se clicado ele some e fecha o menu -->
+        <div class="fechaMenu isClose"></div>
+        <!--Home--página inicial-->
+        <header id="home">
+            <div class="img-wrapper">
+                <!--colocar imagens pra se adptar na div pra formata-la-->
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+                <h1>Doçuras da Mila</h1>
+                <p>bolos e doces<br>para todas as ocasiões</p>
+                <button>Saiba mais</button>
+            </div>
+
+        </header>
+
+        <!--div pra encapsular conteúdo da página-->
+        <!--div.sidebar>nav>ul.menu>(li.menu-item>a.menu-link)*5 "()operador de agrupamento pra criar um menu com 5 itens"-->
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#combos" class="menu-link">Combos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Festas</a></li>
+                    <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                </ul>
+            </nav>
+            <!--estrutura medias sociais div.social-media>(a>i.fab.fa)*3-->
+            <div class="social-media">
+                <a href="https://www.facebook.com/mila.oliveira.1422409" target="_blank" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/milaoliveirapereirasantos" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5518988137438&text=Olá%20Posso ajudar?" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+            </div>
+        </aside>
+        <!--section.sessao-conhecimentos>(.sessao-header>h1)+.conhecimentos>(.conhecimento>(.conhecimento-header>i.fab+h3).conhecimento-text>p{lorem30})*6-->
+        <section class="sessao-combos" id="combos">
+            <div class="sessao-header">
+                <h1>Combos</h1>
+            </div>
+            <div class="combos">
+                <div class="combos">
+                    <div class="combos-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>Titulo</h3>
+                    </div>
+                    <div class="combos-text">
+                        <p>10 Pessoas 1 Bolo 1,200Kg 1 Topo Personalizado 20 Brigadeiros 20 Beijinhos</p>
+                    </div>
+                </div>
+                <div class="combos">
+                    <div class="combos-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>Titulo</h3>
+                    </div>
+                    <div class="combos-text">
+                        <p>10 Pessoas 1 Bolo 1,200Kg 1 Topo Personalizado 20 Brigadeiros 20 Beijinhos</p>
+                    </div>
+                </div>
+                <div class="combos">
+                    <div class="combos-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Titulo</h3>
+                    </div>
+                    <div class="combos-text">
+                        <p>10 Pessoas 1 Bolo 1,200Kg 1 Topo Personalizado 20 Brigadeiros 20 Beijinhos</p>
+                    </div>
+                </div>
+                <div class="combos">
+                    <div class="combos-header">
+                        <i class="fab fa-js"></i>
+                        <h3>Titulo</h3>
+                    </div>
+                    <div class="combos-text">
+                        <p>10 Pessoas 1 Bolo 1,200Kg 1 Topo Personalizado 20 Brigadeiros 20 Beijinhos</p>
+                    </div>
+                </div>
+                <div class="combos">
+                    <div class="combos-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Titulo</h3>
+                    </div>
+                    <div class="combos-text">
+                        <p>10 Pessoas 1 Bolo 1,200Kg 1 Topo Personalizado 20 Brigadeiros 20 Beijinhos</p>
+                    </div>
+                </div>
+                <div class="combos">
+                    <div class="combos-header">
+                        <i class="fab fa-github-alt"></i>
+                        <h3>Titulo</h3>
+                    </div>
+                    <div class="combos-text">
+                        <p>10 Pessoas 1 Bolo 1,200Kg 1 Topo Personalizado 20 Brigadeiros 20 Beijinhos</p>
+                    </div>
+                </div>
+                <div class="combos-img-wrapper">
+                    <img src="imagens/fundo.png" alt="imagens conhecimentos">
+                </div>
+            </div>
+        </section>
+
+        <!-- .projetos>.card>(.card-img-wrapper+.card-info>h2+h3+p+button)*3-->
+        <section>
+            <div class="sessao-projetos" id="projetos">
+                <div class="sessao-header">
+                    <h1>Festas</h1>
+                </div>
+                <div class="projetos">
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
+                        </div>
+                        <div class="card-info">
+                            <h2>text</h2>
+                            <h3>text</h3>
+                            <p>text</p>
+                            <button class="btn">Saiba Mais</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="imagens/proj2.png" alt="imagem do projeto Maratona" />
+                        </div>
+                        <div class="card-info">
+                            <h2>text</h2>
+                            <h3>text</h3>
+                            <p>text</p>
+                            <button class="btn">Saiba Mais</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="imagens/proj3.jpg" alt="imagem do projeto Casa Bela" />
+                        </div>
+                        <div class="card-info">
+                            <h2>text</h2>
+                            <h3>text</h3>
+                            <p>text</p>
+                            <button class="btn">Saiba Mais</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!--opção pra adicionar audio na linh abaixo-->
+        <!--<audio preload="metadata" autoplay controls loop>
+                <source src="audio/bg-audio.mp3" type="audio/mp3">
+            </audio>-->
+               <!--rodapé-->
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyryght &copy: 2022, RCDS - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href="https://www.facebook.com/mila.oliveira.1422409" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/milaoliveirapereirasantos" target="_blank"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=5518988137438&text=Olá%20Posso ajudar?"
+                                target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+        </footer>
+        <!--link pra criar botão pra subir-->
+        <a href="#home" id="link-topo"><i class="fas fa-arrow-up"></i></a>
+</body>
+
+<script src="script.js"></script>
+
+</html>
