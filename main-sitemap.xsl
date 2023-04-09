@@ -118,7 +118,7 @@
 								This KML file contains <xsl:value-of select="count(kml:kml/kml:Document/kml:Folder/kml:Placemark)"/> Locations.
 							</p>
 							<p class="expl">
-								<a href="http://docuras-da-mila.local/sitemap_index.xml">&#8592; Índice do sitemap</a>							</p>
+								<a href="https://docurasdamila.github.io/sitemap_index.xml">&#8592; Índice do sitemap</a>							</p>
 							<table id="sitemap" cellpadding="3">
 								<thead>
 									<tr>
@@ -170,7 +170,7 @@
 									Este XML de sitemap é gerado pelo plugin <a href="https://s.rankmath.com/home" target="_blank">Rank Math</a>. É o que os mecanismos de pesquisa como o Google usam para rastrear os posts/páginas/produtos/imagens/arquivos em seu site.								</p>
 							
 							<p>
-								Saiba mais sobre arquivos <a href="http://sitemaps.org" target="_blank">XMLs de sitemaps</a>.							</p>
+								Saiba mais sobre arquivos <a href="http://sitemaps.org/" target="_blank">XMLs de sitemaps</a>.							</p>
 
 						</div>
 
@@ -213,7 +213,7 @@
 									Este XML do sitemap contém <strong><xsl:value-of select="count(sitemap:urlset/sitemap:url)"/></strong> URLs.								</p>
 
 								<p class="expl">
-									<a href="http://docuras-da-mila.local/sitemap_index.xml">&#8592; Índice do sitemap</a>								</p>
+									<a href="https://docurasdamila.github.io/sitemap_index.xml">&#8592; Índice do sitemap</a>								</p>
 
 								<table id="sitemap" cellpadding="3">
 
