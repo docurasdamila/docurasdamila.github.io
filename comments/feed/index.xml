@@ -8,10 +8,10 @@
 <channel>
 	<title>
 	Comentários sobre Bolos e Doces Doçuras da Mila	</title>
-	<atom:link href="https://docurasdamila.github.io/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://docurasdamila.github.io/</link>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Confeitaria</description>
-	<lastBuildDate>Sun, 09 Apr 2023 12:39:59 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 10 Apr 2023 10:38:25 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
